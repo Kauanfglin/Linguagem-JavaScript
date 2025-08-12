@@ -1,0 +1,11 @@
+import spaceship from ' ./spaceship.js';
+import spaceshipengine from ' ./spaceshipengine.js';
+const shopia = new spaceship("shopia", 1000, 500);
+const amisterda = new spaceship("amisterda", 1000, 500);
+const sol = new spaceship("sol", 1000, 500);
+const shopiaengine = new spaceshipengine(shopia);
+const amisterdaengine = new spaceshipengine(amisterda);
+const solengine = new spaceshipengine(sol);
+shopiaengine.turnon();
+amisterdaengine.turnon();
+solengine.turnon();

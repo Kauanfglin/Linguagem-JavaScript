@@ -1,0 +1,1 @@
+const app = new App(); //CRIAR UMA NOVA INSTÂNCIA DA CLASSE APP
